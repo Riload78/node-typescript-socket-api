@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist",
+		"sourceMap": true,
+		"esModuleInterop": true
+	},
+	"files": [
+		"./node_modules/@types/node/index.d.ts",
+		"./node_modules/@types/jest/index.d.ts",
+		"./node_modules/@types/express/index.d.ts"
+	],
+	"include": ["src/**/*.ts", "app.ts", "example.ts", "index.ts", "sockets.ts"],
+	"exclude": ["node_modules"]
+}
